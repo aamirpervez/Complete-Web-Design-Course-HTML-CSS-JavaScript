@@ -1,0 +1,112 @@
+/*Universal Operator*/
+
+/* *{
+    background-color: gold;
+}
+
+html{
+    background-color: gold;
+}
+
+body{
+    background-color: gold;
+} */
+
+
+/* div h1{
+    color: brown;
+} */
+
+
+.box{
+    background-color: aqua;
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.box h1{
+    color: red;
+}
+
+.box p{
+    color: darkblue;
+}
+
+#box{
+     background-color: salmon;
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin: 100px 0px;
+}
+
+#box h4{
+   color: blue;
+}
+
+.box2 h1,h2,h3,p,span,b{
+     color: blue;
+     font-weight: 400;
+}
+
+.para span{
+    color: red;
+    margin: 100px 0px;
+}
+
+
+.child ul > li{
+    color: green;
+    
+}
+
+.child2 > li{
+    color: blueviolet;
+}
+
+.form{
+    padding: 100px;
+     border: 2px solid black;
+}
+/* .form input[type="text"]{
+    border: 2px solid black;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.form input[type="email"]{
+    border: 2px solid red;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.form input[type="tel"]{
+    border: 2px solid green;
+    height: 50px;
+    margin-bottom: 10px;
+} */
+
+.form input[type="email"],input[type="text"],input[type="tel"]{
+    border: 2px solid red;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.btn{
+    background-color: red;
+    border-radius: 50px;
+    padding: 15px 40px;
+}
+
+.btn:hover{
+    background-color: aqua;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.boxs p::first-line{
+    color: red;
+    font-weight: 800;
+}
