@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.box1 {
+    background-color: salmon;
+    width: 10em;
+    height: auto;
+}
+
+
+.responsive-box {
+    width: 50%;
+    height: auto;
+    min-width: 200px;
+    max-width: 900px;
+    min-height: 200px;
+    max-height: 800px;
+    background-color: lightseagreen;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}

@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.box{
+    margin: 100px 50px;
+}
+
+button:active{
+    background-color: red;
+    border-radius: 50px;
+    padding: 20px 40px;
+    color: white;
+}
+
+.link:visited{
+    color: orangered;
+}
+
+
+.box2 li:first-child{
+    color: chocolate;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.box2 li:last-child{
+    color: slateblue;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.box2 li:nth-child(2){
+    color:darkgreen;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.box3 p::first-letter{
+   color:darkgreen;
+    font-size: 85px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.box3 p::first-line{
+   color:red;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
